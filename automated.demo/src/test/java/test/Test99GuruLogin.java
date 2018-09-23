@@ -76,5 +76,6 @@ public class Test99GuruLogin {
 
     Assert.assertTrue(objHomePage.getHomePageDashboardUserName().toLowerCase().contains("manger id : mgr123"));
 
+    driver.close();
     }
 }
